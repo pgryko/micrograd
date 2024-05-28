@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "micrograd"
+version = "0.1.0"
+description = "Re-implementation of Andrej Karpathy's Micrograd"
+authors = ["Piotr Gryko <piotr.gryko@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+numpy = "^1.26.4"
+
+[tool.poetry.group.dev.dependencies]
+ruff = "^0.4.5"
+black = "^24.4.2"
+pytest = "^8.2.1"
+ipdb = "^0.13.13"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

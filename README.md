@@ -1,2 +1,2 @@
 # micrograd
-Re-implementation of Andej Karpathy's Micrograd
+Re-implementation of Andrej Karpathy's Micrograd
